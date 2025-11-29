@@ -1,0 +1,14 @@
+@use '../../styles/utils/variables' as *;
+@use '../../styles/utils/mixins' as *;
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $gap-10;
+    max-width: $max-w-1024;
+    width: $w-100;
+    margin: 0 auto;
+    padding: $pd-50 0 $pd-30;
+    justify-content: center;
+
+}
