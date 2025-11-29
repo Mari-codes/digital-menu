@@ -1,0 +1,30 @@
+@use '../../styles/utils/variables' as *;
+@use '../../styles/utils/mixins' as *;
+
+.category__btn {
+    max-width: $w-150;
+    width: $w-100;
+    padding: $pd-10 0;
+    gap: $gap-10;
+
+    @include flex-center;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+
+    &--active{
+        background-color: $color-gold;
+    }
+}
+
+.category__icon{
+    width: $w-20;
+    object-fit: contain;
+}
+
+.category__label {
+    font-weight: $fw-bold;
+    font-size: $fs-14;
+}
