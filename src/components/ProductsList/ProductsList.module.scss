@@ -1,0 +1,14 @@
+@use '../../styles/utils/variables' as *;
+@use '../../styles/utils/mixins' as *;
+
+.productsList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $gap-40;
+    max-width: $max-w-1024;
+    align-items: stretch;
+    margin: 0 auto;
+    background-color: $color-light;
+    padding: $pd-20;
+    border-radius: 8px;
+}
