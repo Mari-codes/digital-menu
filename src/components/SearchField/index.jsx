@@ -1,7 +1,7 @@
 import styles from "./SearchField.module.scss";
 import searchIcon from "../../assets/icons/lupa.png"
 
-const SearchField = ({ searchText, onSearch}) => {
+const SearchField = ({searchText, onSearch}) => {
     return (
         <div className={styles.search}>
             <img src={searchIcon} className={styles.search__icon} />
