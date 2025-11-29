@@ -1,0 +1,26 @@
+@use '../../styles/utils/variables' as *;
+@use '../../styles/utils/mixins' as *;
+
+.search {
+    display: flex;
+    align-items: center;
+    max-width: $max-w-1024;
+    width: $w-100;
+    border: 2px solid $color-border;
+    border-radius: 20px;
+    padding: 6px;
+    margin: 0 auto;
+    gap: $gap-5;
+
+    &__icon {
+        width: $w-30;
+    }
+
+    &__input {
+        flex: 1;
+        font-size: $fs-14;
+        border: none;
+        outline: none;
+        font-weight: 600;
+    }
+}
