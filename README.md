@@ -1,16 +1,67 @@
-# React + Vite
+# Digital Menu
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A digital menu built with **React + Vite**, **JavaScript**, **Sass**, and **CSS Modules**.  
+The application displays a list of products and allows filtering by **category** or by **search input**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Product list with image, name, description, category, and price.
+- Category filter with active state.
+- Search field that filters from **3 characters**.
+- Search matches both **product name** and **description**.
+- Combined filtering (category + search).
+- Responsive layout.
+- Styling with **Sass** and **CSS Modules**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Technology | Purpose |
+|-----------|---------|
+| **React + Vite** | App setup and UI |
+| **JavaScript** | Logic and state management |
+| **Sass** | Styling with variables and mixins |
+| **CSS Modules** | Scoped component styles |
+
+---
+
+## Filtering Logic
+
+### Category Filter
+- Displays only products from the selected category.
+- Active category is visually highlighted.
+
+### Search Filter
+- Activated when the input has **3 or more characters**.
+- Searches through:
+  - product **name**
+  - product **description**
+- Works together with category filter.
+
+---
+
+## Running the Project
+
+### 1. Install dependencies
+```sh
+npm install
+```
+### 2. Start development server
+
+```sh
+npm run dev
+```
+### 3. Build for production
+
+```sh
+npm run build
+```
+
+## Screenshots
+
+![Screenshot 1](src/assets/screenshots/categories.png)
+![Screenshot 2](src/assets/screenshots/search-field.png)
+![Screenshot 3](src/assets/screenshots/menu-grid.png)
