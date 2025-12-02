@@ -65,6 +65,6 @@ npm run build
 
 ## Screenshots
 
-![Screenshot 1](src/assets/screenshots/categories.png)
-![Screenshot 2](src/assets/screenshots/search-field.png)
-![Screenshot 3](src/assets/screenshots/menu-grid.png)
+![Screenshot 1](/src/assets/screenshots/categories.png)
+![Screenshot 2](/src/assets/screenshots/search-field.png)
+![Screenshot 3](/src/assets/screenshots/menu-grid.png)
