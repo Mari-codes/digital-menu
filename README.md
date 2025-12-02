@@ -1,5 +1,9 @@
 # Digital Menu
 
+## Read this in other languages
+- [Português (Brasil)](./docs/README.pt-BR.md)
+
+
 A digital menu built with **React + Vite**, **JavaScript**, **Sass**, and **CSS Modules**.  
 The application displays a list of products and allows filtering by **category** or by **search input**.
 
